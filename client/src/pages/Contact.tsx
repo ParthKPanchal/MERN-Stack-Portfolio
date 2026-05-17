@@ -39,7 +39,7 @@ const Contact = () => {
     try {
       setLoading(true);
 
-      const response = await axios.post(
+      await axios.post(
         `${import.meta.env.VITE_API_URL}/api/messages`,
         formData,
       );
