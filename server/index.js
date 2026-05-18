@@ -11,7 +11,12 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://mr-parth-k-panchal-react-portfolio.netlify.app",
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use("/api/messages", messageRoutes);
 app.use("/api/visitors", visitorRoutes);
