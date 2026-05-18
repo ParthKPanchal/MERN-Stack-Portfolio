@@ -33,7 +33,7 @@ const Contact = () => {
 
       await axios.post(
         `${import.meta.env.VITE_API_URL}/api/messages`,
-        formData,
+        formData
       );
 
       toast.success("Message Sent Successfully");

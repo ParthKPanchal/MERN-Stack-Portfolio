@@ -21,7 +21,7 @@ const Admin = () => {
   const fetchMessages = async () => {
     try {
       const response = await axios.get(
-        `${import.meta.env.VITE_API_URL}/api/messages`
+        `${import.meta.env.VITE_API_URL}/api/visitors`
       );
 
       setMessages(response.data);

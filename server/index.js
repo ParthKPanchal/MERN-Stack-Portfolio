@@ -13,7 +13,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://mr-parth-k-panchal-react-portfolio.netlify.app",
+    origin: [
+      "https://mr-parth-k-panchal-react-portfolio.netlify.app",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
