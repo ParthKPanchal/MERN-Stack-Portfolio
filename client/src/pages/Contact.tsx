@@ -6,7 +6,6 @@ import {
   FiMail,
   FiGithub,
   FiLinkedin,
-  FiMapPin,
   FiBriefcase,
 } from "react-icons/fi";
 
