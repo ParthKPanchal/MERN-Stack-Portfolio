@@ -1,4 +1,11 @@
-const certificates = [
+type Certificate = {
+  id: number;
+  title: string;
+  provider: string;
+  duration: string;
+};
+
+const certificates: Certificate[] = [
   {
     id: 1,
     title: "Full Stack (MERN) Web Development",
