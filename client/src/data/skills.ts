@@ -13,6 +13,7 @@ const skills = {
     "Node.js",
     "Express.js",
     "PHP",
+    "REST APIs",
   ],
 
   database: [
@@ -26,6 +27,20 @@ const skills = {
     "VS Code",
     "Postman",
     "MongoDB Compass",
+    "Netlify",
+    "Render",
+    "Vercel",
+  ],
+
+  cms: [
+    "WordPress",
+    "Elementor",
+  ],
+
+  learning: [
+    "JWT Authentication",
+    "Advanced MERN Stack",
+    "System Design",
   ],
 };
 
